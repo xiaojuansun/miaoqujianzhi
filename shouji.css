@@ -1,0 +1,107 @@
+﻿body{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    font-family:"微软雅黑", "黑体";
+    background: url(./img/shd.png);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+   
+}
+/************************
+ *header
+ * ********************/
+ .content{
+    width:100%;
+    margin:0 auto;
+       position:relative;
+}
+.logo{
+  
+  margin:0 auto;
+  margin-top:5px;
+ 
+}
+ 
+ .aa{
+     margin-top:-50px;
+      position:relative; 
+margin-left:5px;	   margin:0 auto;
+}
+ .aa img{
+ width:95%;   }
+ .download{
+    /*width:24%;
+    width:243px;*/
+    width:260px;
+    position:relative;
+    margin:0 auto;
+    
+}
+
+
+.download-btn div{
+    padding-top:10px;
+    padding-bottom:12px;
+    border-radius:5px;
+    margin-top:10%;
+    color:#ffffff;
+    font-size:16px;
+    position:relative;
+    
+    text-align:left;
+}
+.download-btn div span{
+    position:absolute;
+    bottom:13px;
+}
+.download-btn div img{
+    height:25px;
+    padding-left:40px;
+    padding-right:15px;
+}
+
+#iphone_download{
+    background-color:#ff7f50;
+    cursor:pointer;
+}
+#iphone_download:hover{
+    background-color:#ff4500;
+}
+#android_download{
+    background-color:#d2691e;
+    cursor:pointer;
+}
+#android_download:hover{
+    background-color:#ff4500;
+}
+#windowsphone_download{
+    background-color:#cd5c5c;
+    cursor:pointer;
+}
+#windowsphone_download:hover{
+    background-color:#ff4500;
+}
+
+/**********************
+ *footer
+ * *******************/
+.footer{
+    margin:0 auto;
+    width:100%;
+    background-color:rgb(240,240,240);
+    padding-top:20px;
+ margin-top:20px;	
+}
+.footer-content{
+ 
+    margin:0 auto;
+    color:#696969;
+    text-align:center;
+    font-size:13px;
+    padding-bottom:20px;
+}
+.footer-content div{
+    margin-top:2px;
+}
+

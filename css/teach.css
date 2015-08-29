@@ -1,0 +1,188 @@
+﻿body{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    font-family:"微软雅黑", "黑体";
+    background: url(../img/photo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+/************************
+ *header
+ * ********************/
+.header{
+    width:100%;
+    position:absolute;
+    z-index:1;
+}
+.navigator{
+    width:1250px;
+	min-width:800px;
+    height:105px;
+    margin: 0 auto;
+    margin-top:5px;
+    position:relative;
+  /*  border:1px solid red;*/
+}
+.navigator .logo{
+  float:left;
+ 
+}
+.navigator .logo img{
+    
+    position:relative;
+    height:100%;
+	
+}
+.navigator .tabs{
+    position:relative;
+	float:left;
+        margin-top:45px;
+	margin-left:380px;
+    
+}
+.navigator .tabs a{
+    margin-left:15px;
+    color:#ff0000;
+    font-size:20px;
+    text-decoration:none;
+	}
+.navigator .tabs .active{
+    color:#534b46;
+}
+.common_header .tabs a{
+    color:#333;
+}
+.common_header .tabs .active{
+    color:#5dc0ff;
+}
+
+
+
+/**********************
+ *body
+ * *******************/
+.content{
+   width:100%;
+   float:none;
+   z-index:0;
+   margin: 0 auto;
+   padding-top:140px;
+  /* background-color:pink; */
+
+}
+
+.title{
+    text-align:center;
+    margin:0px auto;
+    margin-top:20px;
+	font-size:30px;
+	margin-bottom:20px;
+    color:red;
+	
+}
+
+.page{
+    width:100%;
+    min-width:1280px;
+    background-color:;
+    position:relative;
+    float:left;
+	margin-bottom:20px;
+}
+.page-dark{
+    background-color:;
+	margin-bottom:20px;
+}
+.page-center{
+    width:70%;
+    margin-left:15%;
+    float:left;
+}
+.page-body{
+    width:100%;
+    float:left;
+   /* border:1px solid red;*/
+}
+.page-image{
+ /*   border:1px solid #949796;*/
+    padding:10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    width:20%;
+}
+.page-image img{
+    width:100%;
+   
+}
+
+.page .left{
+    float:left;
+    margin-left:5%;
+}
+.page .right{
+    float:right;
+    margin-right:5%;
+}
+.page-word{
+    width:55%;
+}
+.page-title{
+    margin-top:40px;
+    font-size:30px;
+    padding-bottom:15px;
+    border-bottom:1px dashed gray;
+    color:#534b46;
+    text-align:right;
+}
+.page-l{
+    text-align:left;
+}
+.page-title span{
+    color:#534b46;
+}
+.page-content{
+    margin-top:15px;
+    color:#606060;
+    font-size:16px;
+    line-height:25px;
+}
+
+.page-teach{
+    width:80%;
+    margin-left:10%;
+    float:left;
+	font-size:30px;
+    padding-bottom:15px;
+    color:#534b46;
+	text-align:center;
+	margin-top:30px;
+}
+   
+
+
+/**********************
+ *footer
+ * *******************/
+.footer{
+    float:left;
+    width:100%;
+	margin:0 auto;
+	margin-left:0px;
+    /*background-color:#E8E8E8;*/
+    padding-top:20px;
+	margin-top:50px;
+}
+.footer-content{
+    width:100%;
+    min-width:770px;
+    margin:0 auto;
+    color:#696969;
+    text-align:center;
+    font-size:13px;
+    padding-bottom:20px;
+}
+.footer-content div{
+    margin-top:2px;
+}
